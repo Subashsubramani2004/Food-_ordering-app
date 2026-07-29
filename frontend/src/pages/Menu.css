@@ -1,0 +1,82 @@
+.menu-page {
+
+    min-height: 100vh;
+
+    padding: 50px 70px;
+
+    background: #fff8f1;
+
+}
+
+
+
+.menu-page h1 {
+
+    text-align: center;
+
+    font-size: 42px;
+
+    color: #333;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.menu-description {
+
+    text-align: center;
+
+    color: #666;
+
+    font-size: 18px;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+.food-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+}
+
+
+
+/* Mobile responsive */
+
+@media (max-width:768px) {
+
+
+    .menu-page {
+
+        padding: 30px 20px;
+
+    }
+
+
+
+    .menu-page h1 {
+
+        font-size: 32px;
+
+    }
+
+
+
+    .food-container {
+
+        gap:20px;
+
+    }
+
+}
